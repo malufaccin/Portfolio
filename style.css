@@ -25,6 +25,8 @@ header {
   }
   
   nav ul li a {
+    font-size: 20px;
+    font-family: poppins,serif;
     color: white;
     text-decoration: none;
   }
@@ -103,12 +105,18 @@ p{
     color: #ca5331;
     font-size: 30px;
 }
+h3{
+    font-family: "Poppins", serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 30px;
+}
 h1{
     font-family: "Shrikhand", serif;
     color:white;
     font-size: 70px;
     font-weight: bold;
-    text-shadow: -7px 7px 0 #283a2a
+    text-shadow: -7px 7px 0 #283a2a;
 }
 
 #projetos{
@@ -127,12 +135,12 @@ h1{
 }
 
 .card {
-    background: white;
+    background: #f4e3c7;
     border-radius: 15px;
     padding: 20px;
     width: 220px;
     text-align: center;
-    box-shadow: 5px 5px 15px rgba(255, 102, 153, 0.3);
+    box-shadow: -7px 7px 0px #283a2a;
     transition: 0.3s;
 }
 
